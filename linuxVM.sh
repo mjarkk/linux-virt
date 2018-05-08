@@ -1,3 +1,5 @@
+#!/bin/bash
+
 qemu-system-x86_64 \
 -boot order=d \
 -drive file=/var/lib/libvirt/images/linux.qcow2,format=qcow2 \
